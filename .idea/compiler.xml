@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ego-rest" />
+        <module name="ego-search" />
+        <module name="ego-portal" />
+        <module name="ego-sso" />
+        <module name="ego-order" />
+        <module name="ego-eureka2" />
+        <module name="ego-eureka1" />
+        <module name="ego-base" />
+        <module name="ego-manager" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ego-base" options="-parameters" />
+      <module name="ego-eureka1" options="-parameters" />
+      <module name="ego-eureka2" options="-parameters" />
+      <module name="ego-manager" options="-parameters" />
+      <module name="ego-order" options="-parameters" />
+      <module name="ego-portal" options="-parameters" />
+      <module name="ego-rest" options="-parameters" />
+      <module name="ego-search" options="-parameters" />
+      <module name="ego-sso" options="-parameters" />
+    </option>
+  </component>
+</project>
